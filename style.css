@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.title {
+  margin-left: 5vw;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tablero {
+  display: flex;
+}
+
+.casilla {
+  border: 2px solid greenyellow;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rojo {
+  background-color: red;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-error {
+  color: red;
+}
